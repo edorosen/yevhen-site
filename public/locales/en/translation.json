@@ -1,0 +1,133 @@
+{
+  "header": {
+    "link": {
+      "home": "Home",
+      "about": "About",
+      "contacts": "Contacts"
+    }
+  },
+
+  "modal-form": {
+    "button": "Mail me",
+    "name": "Enter your name",
+    "textarea": "Enter the purpose of your request and the contact details I can use to contact you",
+    "submit": "Submit"
+  },
+
+  "home": {
+    "title": {
+      "page": "Home",
+      "head": "Portfolio"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing"
+    },
+
+    "wellcome-text": "Wellcome to my site",
+    "article": {
+      "selector": "Read more"
+    }
+  },
+
+  "about": {
+    "title": {
+      "page": "About me",
+      "head": "ABOUT ME:",
+      "head2": "EDUCATION:"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing, site"
+    },
+    
+    "content": {
+      "p1": "I am a beginner. I have not much of experience, because I retrained not so long ago. I have no experience working in a company or group. Not enough of experience working with javascript. However, despite the above, I have a good memory and a knack for learning. I perceive the necessary information quickly, I really want to develop in the direction of web development, in particular front-end, back-end, maybe even I will encroach on the fullstack.",
+      "p2": "2018 - ATO-IT - Certificate of successful completion of the course 'Introduction to the development of websites and mobile applications' - Recommended position - trainee front-end developer.",
+      "p3": "2020 - Lviv IT School through the platform of mass open online courses 'Prometheus' - a certificate of successful completion of the course 'Fundamentals of Web UI development 2020'.",
+      "p4": "2021 - for now - I am taking a course on the 'Udemy' platform 'React + Redux - professional development', upon completion, I will add a certificate to the gallery",
+      "p5": "In the gallery you can find certificates of my education:"
+    }
+  },
+
+  "contacts": {
+    "title": {
+      "page": "Contacts",
+      "head": "HOW YOU CAN CONTACT WITH ME:"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing, site"
+    },
+    
+    "content": {
+      "p1": "Tel: +38(096)-021-30-30;",
+      "p2": "Mail:geronimo_get@ukr.net",
+      "p3": "https://www.facebook.com/profile.php?id=100019509077567",
+      "p4": "https://www.linkedin.com/in/edoroshen-%CF%82/"
+    }
+  },
+
+  "periodpress": {
+    "title": {
+      "page": "Periodpress website",
+      "head": "MORE ABOUT WORK ON THE SITE 'PERIODPRESS.ONU.EDU.UA'"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko, periodpress.onu.edu.ua",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing, site, periodpress.onu.edu.ua"
+    },
+    
+    "content": {
+      "p1": "Back in 2018, when the ATO-IT course was approaching its final stage, each of the participants was given the task of creating the first site. Each of us had to find a client who needed a simple site, or had the opportunity to write a site just for themselves. And I, in my turn, decided to do something not so easy and I started implementation, a very complex project for me, at the time, on a fairly large number of pages.",
+      "p2": "In fact, the site is very simple, it has no feedback or complex JS script. Its design dates back us to the early 2000s. However, as my first project, I was very pleased of it.",
+      "p3": "One day I realized that the site needed an upgrade, because you must every time climb into the code to change any text, it was not comfortably. Therefore, motivated by the result and finding the someone's development of the administrative panel, I decided to create something that would at least remotely resemble the administrative panel and would solve basic issues, it is changing the text or image.",
+      "p4": "The sample of the admin panel I found was written in PHP, which I did not learnin, and I did not even understood what kind of code is it. The code remotely reminded me of Java Script, and I purely intuitively and with the help of the almighty Internet, began to change something for myself and for convenience.",
+      "p5": "So, when I finished setting up the panel, I realized that it can be used by anyone who knows the path to its directory, that is, I had to make login sistem, what working by using entering login and password.",
+      "p6": "At the time I met with the concept of a database and worked more productively with PHP."
+    }
+  },
+
+  "dveri": {
+    "title": {
+      "page": "dveri-service website",
+      "head": "MORE THOROUGHLY ABOUT THE PROCESS OF CREATING A SITE FOR THE COMPANY 'DVERI-SERVICE'"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko, dveri-service.com.ua",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing, site, dveri-service.com.ua"
+    },
+    
+    "content": {
+      "p1": "One of fine spring evening, an acquaintance from an ATO-IT course, what we passed together, wrote to me and offered to help her to create a website for the company above.",
+      "p2": "The old version of the site was created on 'Joomla!'. the site was serviced by different people in different periods, there was no talk of optimization for mobile devices at all. Therefore, we decided, for a very modest fee, to create a new site, with a similar design, but on 'Wordpress'. We decided so, because once again to remake the old site after someone was not profitable.",
+      "p3": "In the process of developing a new site design, I studied the features of the CMS 'Wordpress'. When I realized that I would have to do the work alone, because my colleague did not have enough time for this project, I paid my attention to 'Elementor' for 'Wordpress'. As a result, the site was almost entirely created with 'Elementor'.",
+      "p4": "The basic link structure of the site was preserved, which allowed not so much to fall in search results (for some time). I am currently administering this resource. Time to time I add pages, videos, photos. With 'Elementor' it is so easy to do and does not take much time."
+    }
+  },
+
+  "mebel": {
+    "title": {
+      "page": "'Mebel-24' website",
+      "head": "ABOUT THE SITE OF THE COMPANY 'MEBLI-24'"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko, mebel-24.com.ua",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing, site, mebel-24.com.ua"
+    },
+    
+    "content": {
+      "p1": "Not so long time ago, the owner of the site 'Mebli-24' contacted me. He wrote to me that he had significant problems with the organization of the site and some problems with site administration and SEO, and indicated that the site was developed in 'Opencart'. Without hesitation, I agreed to help, but warned that I had never worked with 'Opencart', so, likely, I may do my work not so quickly. Also, I have never done SEO-optimization, because it is does not like me very much;)",
+      "p2": "So, when I deciding of the scope of work, I deepened into the study of the features of CMS 'Opencart'. Here I realized that the system is basically clear, but the control units are scattered throughout the administrative panel and to find the options for editing some small text, sometimes I spent several hours. Also in 'Opencart' there are such parameters which editing is not provided by the standard control panel.",
+      "p3": "As far as I understand, for this, not yet long period of work with the site, the content code of the page 'Opencart' forms from components, and the information in components takes from 'Cache' folders at various levels. The structure of the page for its further analysis and editing is very poorly for understood. However, if you compare with the system of plugins 'Wordpress', there are also modules, which there are both free and paid.",
+      "p4": "During the period of work with the site 'Mebli-24', I analyzed the work and performance of the site, removed some code from the template, which prevented the correct display of content and link mass of the footer. Added a module for organizing goods by quantity in stock less than 1. Fixed shape of displaying content in different languages, such as text and pictures. Also made it possible to add 'description' to system pages that do not have this parameter from the box and more else.",
+      "p5": "Also, I want to note that my knowledge of PHP is not deep, I did not teach it from A to Z. I know only some parameters and functions, but this does not prevent me from orientating and understanding the PHP code dependent sites;)"
+    }
+  }
+}

@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Suspense } from 'react';
 import {
     BrowserRouter as Router,
     Switch,
@@ -32,38 +32,40 @@ class App extends React.Component {
     }
 
     render() {
-       
+
 
         return (
-            <Router>
-                <Wrapper>
-                    <GlobalStyle />
-                    <Header />
+            <Suspense fallback={<div>Loading...</div>}>
+                <Router>
+                    <Wrapper>
+                        <GlobalStyle />
+                        <Header />
 
-                    <Switch>
-                        <Route exact path="/">
-                            <Home />
-                        </Route>
-                        <Route path="/Contacts">
-                            <Contacts />
-                        </Route>
-                        <Route path="/About">
-                            <About />
-                        </Route>
-                        <Route path="/Periodpress">
-                            <Periodpress />
-                        </Route>
-                        <Route path="/DveriService">
-                            <DveriService />
-                        </Route>
-                        <Route path="/mebel">
-                            <Mebel24 />
-                        </Route>
-                    </Switch>
+                        <Switch>
+                            <Route exact path="/">
+                                <Home />
+                            </Route>
+                            <Route path="/Contacts">
+                                <Contacts />
+                            </Route>
+                            <Route path="/About">
+                                <About />
+                            </Route>
+                            <Route path="/Periodpress">
+                                <Periodpress />
+                            </Route>
+                            <Route path="/DveriService">
+                                <DveriService />
+                            </Route>
+                            <Route path="/mebel">
+                                <Mebel24 />
+                            </Route>
+                        </Switch>
 
-                    <Footer />
-                </Wrapper>
-            </Router>
+                        <Footer />
+                    </Wrapper>
+                </Router>
+            </Suspense>
         )
     }
 

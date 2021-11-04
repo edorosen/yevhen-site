@@ -1,23 +1,27 @@
 import { Helmet } from "react-helmet";
 import { Wrapper, H1, P } from "../pagesStyles";
 import Wellcome from '../Home/WellcomeText/WellcomeDiv';
+import { useTranslation } from "react-i18next";
+import '../../../assets/i18n';
+
 const DveriService = () => {
+
+    const { t } = useTranslation();
+
     return (
         <>
             <Helmet>
-                <title>DveriService</title>
-                <meta name="description" content="Nested component" />
+                <title>{t("dveri.title.page")}</title>
+                <meta name="description" content={t("dveri.meta.description")} />
+                <meta name="keywords" content={t("dveri.meta.keywords")} />
             </Helmet>
             <Wellcome />
             <Wrapper>
-                <H1>БІЛЬШ ГРУНТОВНО ЩОДО ПРОЦЕСУ СТВОРЕННЯ САЙТУ ДЛЯ КОМПАНІЇ "ДВЕРІ-СЕРВІС"</H1>
-                <P>Одного прекрасного весняного вечора мені написала знайома з курсів АТО-ІТ, який ми разом проходили, та запропонувала допомогти їй в налагодженні сайту вище вказанної компанії.</P>
-
-                <P>Стару версію сайту було створено на "Joomla!". Сам сайт обслуговувався різними людьми у різний період, щодо оптимізації під мобільні девайси мови взагалі не йшло. Тому нами було прийнято рішення, за дуже скромну плату, створити новий сайт, зі схожим дизайном, але на "Wordpress". Так вирішили, тому що вчергове переробляти старий сайт після когось було не рентабельно.</P>
-
-                <P>В процесі розробки нового дизайну сайту, я вивчав особливості CMS "Wordpress". Коли стало зрозуміло, що роботу мені доведеться робити одному, оскільки у колеги не вистачало часу на цей проєкт, я звернув увагу на "Elementor" для "Wordpress". Тож в результаті, сайт практично повністю був створений за допомогою  "Elementor".</P>
-
-                <P>Основна посилкова структура сайту була збережена, що дало змогу, не так сильно просісти в пошуковій видачі(на перший час). На даний час я здійснюю адміністрування цього ресурсу. Час від часу додаю сторінки, відео-, фотороботи. З "Elementor" це робити достатньо просто і не займає багато часу.</P>
+                <H1>{t("dveri.title.head")}</H1>
+                <P>{t("dveri.content.p1")}</P>
+                <P>{t("dveri.content.p2")}</P>
+                <P>{t("dveri.content.p3")}</P>
+                <P>{t("dveri.content.p4")}</P>
             </Wrapper>
         </>
     )

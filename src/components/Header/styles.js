@@ -39,6 +39,7 @@ export const TopP = styled.p`
 TopP.displayName = 'TopP';
 
 export const ModalButton = styled.button`
+    width: 150px;
     border-radius: 5px;
     border: none;
     background-color: rgba(18, 18, 18, 0.8);
