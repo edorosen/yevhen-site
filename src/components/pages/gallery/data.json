@@ -1,14 +1,14 @@
 [
 	{
 		"id":  1,
-		"image":  "http://www.geronimo.zzz.com.ua/img/sertificate.png",
+		"image": "https://i.imgur.com/UAXg4fE.png",
 		"title":  "sertificate",
 		"description":"най буде"
 	},
 	{
 		"id":  2,
-		"image":  "http://www.geronimo.zzz.com.ua/img/sertificate2.png",
-		"title":  "sertificate",
+		"image":  "https://i.imgur.com/mocVS1F.png",
+		"title":  "sertificate2",
 		"description":"най буде"
 	}
 ]

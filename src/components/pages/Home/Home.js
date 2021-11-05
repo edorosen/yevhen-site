@@ -4,7 +4,9 @@ import Wellcome from './WellcomeText/WellcomeDiv';
 
 import { H1 } from "../pagesStyles";
 import { Content, CardChar, PortfolioCard, CardOverlay } from "./styles";
-import University from '../../../assets/university.jpg';
+import Period from '../../../assets/periodPress1.png';
+import Dveri from '../../../assets/dveri-servise.png';
+import Mebel from '../../../assets/mebli-24.png';
 import { useTranslation } from "react-i18next";
 import '../../../assets/i18n';
 
@@ -23,10 +25,10 @@ const Home = () => {
             <H1>{t("home.title.head")}</H1>
             <Content>
                 <CardChar>
+                    <a href="http://periodpress.onu.edu.ua/" target="_blank" rel="noreferrer">{t("home.article.period-title")}</a>
                     <PortfolioCard>
 
-                        <img src={University} alt="uni" />
-
+                        <img src={Period} alt="Period" />
                         <CardOverlay>
                             <ul>
                                 <li>
@@ -37,9 +39,10 @@ const Home = () => {
                     </PortfolioCard>
                 </CardChar>
                 <CardChar>
+                    <a href="https://dveri-service.com.ua/" target="_blank" rel="noreferrer">{t("home.article.dveri-title")}</a>
                     <PortfolioCard>
 
-                        <img src={University} alt="uni" />
+                        <img src={Dveri} alt="Dveri" />
 
                         <CardOverlay>
                             <ul>
@@ -51,9 +54,10 @@ const Home = () => {
                     </PortfolioCard>
                 </CardChar>
                 <CardChar>
+                    <a href="https://mebel-24.com.ua/" target="_blank" rel="noreferrer">{t("home.article.mebel-title")}</a>
                     <PortfolioCard>
 
-                        <img src={University} alt="uni" />
+                        <img src={Mebel} alt="Mebel" />
 
                         <CardOverlay>
                             <ul>

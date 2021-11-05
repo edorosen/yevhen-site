@@ -12,6 +12,21 @@ export const H1 = styled.p`
     text-align: center;
     font-size: 20px;
     font-weight: 600;
-    border-top: 1px solid black;
+    border-top: 1px solid #fff;
+    color: #666;
 `;
 H1.displayName = 'H1';
+
+export const CookiesDiv = styled.div`
+    display: flex;
+    align-items: center;
+    img {
+        width: 30px;
+        height: 30px;
+    }
+
+    p{
+        margin: 10px;
+    }
+`;
+CookiesDiv.displayName = 'CookiesDiv';

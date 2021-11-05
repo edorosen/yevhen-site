@@ -5,7 +5,7 @@ export const WellcomeDiv = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 40vh;
+    min-height: 60vh;
     background-color: #202020;
     p{
         font-weight: 700;

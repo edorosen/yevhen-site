@@ -25,6 +25,7 @@ const About = () => {
                 <P>{t("about.content.p3")}</P>
                 <P>{t("about.content.p4")}</P>
                 <P>{t("about.content.p5")}</P>
+                <P>{t("about.content.p6")}</P>
                 <Gallery />
             </Wrapper>
         </div>

@@ -17,6 +17,7 @@ import {
     Mebel24
 } from '../pages/ReadyUp/ReadyUp';
 
+import Loader from './loader';
 import Header from '../Header';
 import Footer from '../Footer';
 
@@ -35,7 +36,7 @@ class App extends React.Component {
 
 
         return (
-            <Suspense fallback={<div>Loading...</div>}>
+            <Suspense fallback={<Loader/>}>
                 <Router>
                     <Wrapper>
                         <GlobalStyle />

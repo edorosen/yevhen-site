@@ -5,7 +5,8 @@ export const Wrapper = styled.div`
     align-items: center;
     justify-content: space-between;
     height: 80px;
-    position: sticky;
+    width: 100%;
+    position: fixed;
     top: 0;
     z-index: 5;
     -webkit-backdrop-filter: blur(10px);

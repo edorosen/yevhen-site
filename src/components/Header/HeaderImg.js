@@ -1,4 +1,4 @@
-import Avatar from '../../assets/avatar2.jpg';
+import Avatar from '../../assets/avatar3.jpg';
 import { TopImg, TopP, HeadImg } from './styles';
 
 const HeaderImg = () => (

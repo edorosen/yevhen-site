@@ -1,5 +1,6 @@
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet";
-import { Wrapper, H1, P } from "../pagesStyles";
+import { Wrapper, H1, P, Paginator } from "../pagesStyles";
 import Wellcome from '../Home/WellcomeText/WellcomeDiv';
 import { useTranslation } from "react-i18next";
 import '../../../assets/i18n';
@@ -29,6 +30,13 @@ const Periodpress = () => {
                 <P>{t("periodpress.content.p5")}</P>
 
                 <P>{t("periodpress.content.p6")}</P>
+                <Paginator>
+                    <ul>
+                        <li>
+                            <Link to="/DveriService">{t("paginator.next")}&#8594;</Link>
+                        </li>
+                    </ul>
+                </Paginator>
             </Wrapper>
         </>
     )

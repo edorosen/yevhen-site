@@ -4,19 +4,31 @@ export const Content = styled.div`
     display: flex;
     justify-content: space-between;
     padding: 20px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+    }
 `;
 Content.displayName = 'Content';
 
 export const CardChar = styled.div`
     display: flex;
-    width: 30%;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+    }
 `;
 CardChar.displayName = 'CardChar';
 
 export const PortfolioCard = styled.div`
     position: relative;
-
+    margin: 10px;
     img {
         width: 100%;
         border-radius: 6px;
@@ -65,21 +77,6 @@ export const CardOverlay = styled.div`
     &:hover {
         opacity: 1;
         overflow: hidden;
-    }
-
-    @media (max-width: 768px) {
-        opacity: 1;
-
-        ul {
-    
-            li{
-                padding: 10px;
-    
-                a{
-                    font-size: 10px;
-                }
-            }
-        }
     }
 `;
 CardOverlay.displayName = 'CardOverlay';
