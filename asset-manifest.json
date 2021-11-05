@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/yevhen-site/static/css/main.c5fb9e72.chunk.css",
+    "main.js": "/yevhen-site/static/js/main.6b806bb7.chunk.js",
+    "main.js.map": "/yevhen-site/static/js/main.6b806bb7.chunk.js.map",
+    "runtime-main.js": "/yevhen-site/static/js/runtime-main.ffd24ec4.js",
+    "runtime-main.js.map": "/yevhen-site/static/js/runtime-main.ffd24ec4.js.map",
+    "static/css/2.1f198449.chunk.css": "/yevhen-site/static/css/2.1f198449.chunk.css",
+    "static/js/2.b69e485f.chunk.js": "/yevhen-site/static/js/2.b69e485f.chunk.js",
+    "static/js/2.b69e485f.chunk.js.map": "/yevhen-site/static/js/2.b69e485f.chunk.js.map",
+    "index.html": "/yevhen-site/index.html",
+    "static/css/2.1f198449.chunk.css.map": "/yevhen-site/static/css/2.1f198449.chunk.css.map",
+    "static/css/main.c5fb9e72.chunk.css.map": "/yevhen-site/static/css/main.c5fb9e72.chunk.css.map",
+    "static/js/2.b69e485f.chunk.js.LICENSE.txt": "/yevhen-site/static/js/2.b69e485f.chunk.js.LICENSE.txt",
+    "static/media/avatar3.09360ae0.jpg": "/yevhen-site/static/media/avatar3.09360ae0.jpg",
+    "static/media/dveri-servise.d0bdc4a5.png": "/yevhen-site/static/media/dveri-servise.d0bdc4a5.png",
+    "static/media/getFetch.cjs": "/yevhen-site/static/media/getFetch.582d29c4.cjs",
+    "static/media/mebli-24.d668ca71.png": "/yevhen-site/static/media/mebli-24.d668ca71.png",
+    "static/media/periodPress1.ceabb216.png": "/yevhen-site/static/media/periodPress1.ceabb216.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ffd24ec4.js",
+    "static/css/2.1f198449.chunk.css",
+    "static/js/2.b69e485f.chunk.js",
+    "static/css/main.c5fb9e72.chunk.css",
+    "static/js/main.6b806bb7.chunk.js"
+  ]
+}
