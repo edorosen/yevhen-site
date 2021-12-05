@@ -1,5 +1,5 @@
 import React, { useRef, useState } from 'react';
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import { Ul } from './styles';
 import { ModalButton } from '../styles';
 import ModalWindow from '../../ModalWindow/ModalWindow';
@@ -30,9 +30,9 @@ const RightNav = ({ open }) => {
   return (
     <>
       <Ul open={open}>
-        <li><Link to="/">{t("header.link.home")}</Link></li>
-        <li><Link to="/About">{t("header.link.about")}</Link></li>
-        <li><Link to="/Contacts">{t("header.link.contacts")}</Link></li>
+        <li><NavLink exact to="/">{t("header.link.home")}</NavLink></li>
+        <li><NavLink to="/About">{t("header.link.about")}</NavLink></li>
+        <li><NavLink to="/Contacts">{t("header.link.contacts")}</NavLink></li>
         <ModalButton className="modal-btn" onClick={() => setModalActive(true)}><p>{t("modal-form.button")}</p></ModalButton>
         <LangSelector />
         <ModalWindow active={modalActive} setActive={setModalActive}>

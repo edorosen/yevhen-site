@@ -29,6 +29,9 @@ const Mebel24 = () => {
                         <li>
                             <Link to="/DveriService">&#8592;{t("paginator.prev")}</Link>
                         </li>
+                        <li>
+                            <Link to="/test-ds">{t("paginator.next")}&#8594;</Link>
+                        </li>
                     </ul>
                 </Paginator>
             </Wrapper>

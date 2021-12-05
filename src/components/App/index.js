@@ -14,7 +14,8 @@ import {
 import {
     Periodpress,
     DveriService,
-    Mebel24
+    Mebel24,
+    TestDs
 } from '../pages/ReadyUp/ReadyUp';
 
 import Loader from './loader';
@@ -60,6 +61,9 @@ class App extends React.Component {
                             </Route>
                             <Route path="/mebel">
                                 <Mebel24 />
+                            </Route>
+                            <Route path="/test-ds">
+                                <TestDs />
                             </Route>
                         </Switch>
 

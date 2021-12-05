@@ -28,7 +28,8 @@
       "period-title": "periodpress.onu.edu.ua website",
       "dveri-title": "dveri-service.com.ua website",
       "mebel-title": "mebel-24.com.ua website",
-      "selector": "Дізнатись більше"
+      "test-ds-title": "test task for Digital Solution",
+      "selector": "more"
     }
   },
   "about": {
@@ -116,6 +117,7 @@
       "p5": "Also, I want to note that my knowledge of PHP is not deep, I did not teach it from A to Z. I know only some parameters and functions, but this does not prevent me from orientating and understanding the PHP code dependent sites;)"
     }
   },
+
   "paginator": {
     "prev": "Previous",
     "next": "Next"
@@ -124,5 +126,27 @@
   "cookies": {
     "text": "My site uses cookies to store data. By continuing to use the site, you consent to the use of these files.",
     "button": "Understood"
+  },
+
+  "test-ds": {
+    "title": {
+      "page": "Test task for 'Digital Solution'",
+      "head": "About test task for 'Digital Solution'"
+    },
+
+    "meta": {
+      "description": "Business card website of front-end developer Yevhen Doroshenko, mebel-24.com.ua",
+      "keywords": "Yevhen Doroshenko, , front-end, web-developing, site, mebel-24.com.ua"
+    },
+    
+    "content": {
+      "p1": "From 'LinkedIn' I received a message from HR Manager in 'Digital Solution'. which offered me to pass a technical test for the position of Junior +, Middle Front-end developer, to which I applied.",
+      "p2": "The essence of the problem was that it was necessary to create the page on ReactJS using Bootstrap. Then you had to fill in the changes on GitHub and write instructions for installing the site.",
+      "p3": "Layout link - ",
+      "p4": "Looking at the layout, I decided not to spoil it with a bootstrap and as a result wrote all the styles by myself.",
+      "p5": "As a result, for stylization I used 'styled-components' to display the title 'react-helmet', for the correct operation of the input number input I used 'react-phone-number-input'.",
+      "p6": "In fact, the layout turned out to be quite difficult to implement and there are a couple of chips that I had to sweat over, but it's a very useful experience, as well as new work in my portfolio.",
+      "p7": "Link to the finished work - "
+    }
   }
 }

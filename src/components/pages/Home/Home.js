@@ -7,6 +7,7 @@ import { Content, CardChar, PortfolioCard, CardOverlay } from "./styles";
 import Period from '../../../assets/periodPress1.png';
 import Dveri from '../../../assets/dveri-servise.png';
 import Mebel from '../../../assets/mebli-24.png';
+import Testds from '../../../assets/test-ds.png';
 import { useTranslation } from "react-i18next";
 import '../../../assets/i18n';
 
@@ -24,6 +25,21 @@ const Home = () => {
             <Wellcome />
             <H1>{t("home.title.head")}</H1>
             <Content>
+                <CardChar>
+                    <a href="http://test.geronimo.zzz.com.ua/" target="_blank" rel="noreferrer">{t("home.article.test-ds-title")}</a>
+                    <PortfolioCard>
+
+                        <img src={Testds} alt="testds" />
+
+                        <CardOverlay>
+                            <ul>
+                                <li>
+                                    <Link to="/test-ds">{t("home.article.selector")}</Link>
+                                </li>
+                            </ul>
+                        </CardOverlay>
+                    </PortfolioCard>
+                </CardChar>
                 <CardChar>
                     <a href="http://periodpress.onu.edu.ua/" target="_blank" rel="noreferrer">{t("home.article.period-title")}</a>
                     <PortfolioCard>

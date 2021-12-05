@@ -19,6 +19,7 @@ export const Ul = styled.ul`
     align-items: center;
     width: 100%;
     justify-content: flex-end;
+
     li {
         padding: 18px 10px;
         a {
@@ -30,6 +31,10 @@ export const Ul = styled.ul`
             &:hover {
                 color: #fff;
             }
+    
+        }
+        .active {
+            color: #fff;
         }
     }
     @media (max-width: 768px) {

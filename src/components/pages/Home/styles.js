@@ -1,12 +1,11 @@
 import styled from 'styled-components';
 
 export const Content = styled.div`
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
 
     @media (max-width: 768px) {
-        flex-direction: column;
+        grid-template-columns: repeat(1, 1fr);
         align-items: center;
     }
 `;
